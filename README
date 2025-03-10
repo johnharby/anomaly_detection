@@ -1,1 +1,11 @@
-TBD
+This code is working for me, it is an implementation of the Confluent example for fraud detection. It seems a 
+very useful approach so I wanted to maintain the working copy:
+
+See https://docs.confluent.io/platform/current/ksqldb/tutorials/event-driven-microservice.html
+
+1.) I used the larger "allinone" example docker-compose.yml file as it includes ControlCenter 
+    and I had more success getting this up and running.
+
+2.) I needed to modify the pom.xml file in the Java client to include dependencies and change some versions.
+
+3.) I removed the email portion eliminating the need for that dependency and just print out the content.
